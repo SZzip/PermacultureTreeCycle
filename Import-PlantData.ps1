@@ -1,4 +1,6 @@
 ﻿<#
+
+
 .Notes
    Copyright (c) 2024 Sebastian Schucht
 
@@ -37,6 +39,7 @@ function ConvertFrom-Hashtable {
         $Object
     }
 }
+
 
 function global:Import-PlantData {
 
@@ -280,33 +283,39 @@ function global:Import-PlantData {
                 "t_material_score_text"       = $null
                 "b_material_element"          = $null
             }
-            $Fruchtmonate = $NaturaDbData["Fruchtreife"] -split "`n" | Select-String "calendar__month__value"
+            $Fruchtmonate = $NaturaDbData["Fruchtreife"] -split "`n" | Select-String "month-indicator"
             $Fruchtmonate | ForEach-Object {
-                $NaturaDbData.Add( "b_fruit-" + [array]::IndexOf($Fruchtmonate, $_) + "_element", $_ -like "*is--active*" )
+                $NaturaDbData.Add( "b_fruit-" + [array]::IndexOf($Fruchtmonate, $_) + "_element", $_ -like "*data-active=*" )
             }
             if ($null -eq $Fruchtmonate) {
                 $(0..11) | ForEach-Object {
                     $NaturaDbData.Add( "b_fruit-" + $_ + "_element", $false )
                 }
             }
-
-            $Blütenmonate = $NaturaDbData["Blühzeit"] -split "`n" | Select-String "calendar__month__value"
+            
+            $Blütenmonate = $NaturaDbData["Blühzeit"] -split "`n" | Select-String "month-indicator"
             $Blütenmonate | ForEach-Object {
-                $NaturaDbData."b_flower-$([array]::IndexOf($Blütenmonate, $_))_element" = $_ -like "*is--active*"
+                Write-Verbose "$_"
+                $NaturaDbData."b_flower-$([array]::IndexOf($Blütenmonate, $_))_element" = $_ -like "*data-active=*"
             }
             if ($null -eq $Blütenmonate) {
                 $(0..11) | ForEach-Object {
                     $NaturaDbData["b_flower-" + $_ + "_element"] = $false 
                 }
             }
-
+            Write-Verbose "$($NaturaDbData | Convertto-json -Depth 10)"
 
             # Replace empty values with data from Natura DB
             $PlantData = $PfafPlantData
-            $PlantData.psobject.Properties | Where-Object {
+            
+            $emptyKeys = $PlantData.Keys | Where-Object {
                 $null -eq $PlantData."$_"
-            } | ForEach-Object {
-                $PlantData."$_" = $NaturaDbPlantData."$_"
+            } 
+            Write-Verbose "emptyKeys: $($emptyKeys | Out-String)"
+            Write-Verbose "NaturaDbPlantData: $($NaturaDbPlantData | Out-String)"
+            $emptyKeys | ForEach-Object {
+                Write-Verbose "$_ => $($NaturaDbData[$_])"
+                $PlantData."$_" = $NaturaDbData."$_"
             }
         
             $LookUp.Keys | ForEach-Object {
