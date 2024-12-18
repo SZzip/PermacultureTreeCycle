@@ -30,13 +30,15 @@ The ID is seperated in 3 sections devided by an underscore. 1 section is the ID 
 
 ID prefixes descibes how the element is used.
 | Prefix | Description |
+| --- | --- |
 | t_ | Text element wich contains the text as XML text. The existing text will be replaced by the new text. |
 | b_ | Boolean element is of SVG element type path. The visibility of the element will assigned by the changing the style of the element. |
 | h_ | Hidden element wich contains other elements amd is of diffent SVG element types. The visibility of the element will assigned by the changing the style of the element. |
 g_ | Group element wich contains other elements amd is of SVG element type g. The visibility of the element will assigned by the changing the style of the element.
 
 ID suffixes descibes the SVG element type.
-Suffix | Description
+| Suffix | Description |
+| --- | --- |
 | _text | Text element wich contains the text as XML text. |
 | _icon | Icon element wich contains the icon as SVG path. |
 | _group | Group element wich contains other elements amd is of SVG element type g. |
@@ -46,7 +48,8 @@ Here is an list of the fields and their IDs:
 ### Text Elements
 
 All text elements have t_ as ID prefix and have to be of the element type text.
-Element ID | Description
+| Element ID | Description |
+| --- | --- |
 | t_latin-name_text | Latin name of the plant. |
 | t_common-name_text | Common name of the plant. |
 | t_width_text | Full width of the adult tree. Have to be a number and metric unit of meter. 0.75m for example. |
@@ -60,7 +63,8 @@ Element ID | Description
 
 The visibility of the elements can be controlled by boolean values. If the value is true, the element is visible, if the value is false, the element is hidden. All hidable elements have a h_ as ID prefix. 
 
-ID | Description
+| ID | Description |
+| --- | --- |
 | h_wind-breating_group | Is the plant wind-breating? |
 | h_wind-breaking_icon | Is the plant wind-breaking? |
 | h_width_icon | Is the plant width icon visible? Should be visible if the plant has a width. |
@@ -74,7 +78,6 @@ ID | Description
 | h_sun-full_icon | If the plant is a growing in full sun? |
 | h_sun_group | If the plant is a growing in full sun? |
 | h_plant-nutrition_group | If the plant is a plant that can be used for nutrition? |
-
 | h_ph_text | constant text PH. |
 | h_ph_group | visibility of the PH fields. |
 | h_pest_icon | visibility of the pest icon. |
@@ -89,7 +92,6 @@ ID | Description
 | h_insects_icon | visibility of the insect icon. |
 | h_insects_group | visibility of the insect field. |
 | h_human-usages_group | visibility of the human usages field. |
-
 | h_hight_icon | visibility of the height icon. |
 | h_grow-speed_group | visibility of the grow speed field. |
 | h_ground-cover_icon | visibility of the ground cover icon. |
@@ -114,6 +116,8 @@ ID | Description
 | h_animal-protection_group | visibility of the animal protection field. |
 
 # for future use
+| field |
+| --- |
 | h_path33 |
 | h_path32 |
 | h_path31 |
@@ -132,11 +136,14 @@ ID | Description
 | h_slot-1_group |
 | h_slot-1_element |
 
-g_Info-Label_group |  visibility of the info label.
+| ID | Description |
+| --- | --- |
+| g_Info-Label_group |  visibility of the info label. |
 
 ### Option elements
 The option elements are used to select multiple plant property out of a list of options. The option elements have a b_ as ID prefix.
-
+| field | description |
+| --- | --- |
 | b_wind-breaking-on-sea_icon | Is the plant wind-breaking near sea? |
 | b_wind-breaking_element | Is the plant wind-breaking? |
 | b_water-wet_element | If the plant is a very wet soil? |
