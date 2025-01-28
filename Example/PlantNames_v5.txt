@@ -1,0 +1,44 @@
+#v5 based on Crawford (CAFG p. 30) 'Plants for small gardens' + own additions
+#(rootstock or cultivation)
+
+Amelanchier alnifolia
+Bunias orientalis
+Caragana arborescens
+Chaenomeles spp.
+Corylus spp.
+Crataegus spp.
+Cynara cardunculus
+Cytisus scoparius
+Elaegnus multiflora
+Fagus sylvatica (Kopfbaum)
+Halesia carolina
+Laurus nobilis
+Malus domestica (auf M26/M106)
+Mespilus germanica
+Morus spp.
+Myrica spp.
+Phormium tenax
+Phyllostachys spp.
+Prunus avium (auf Gisela)
+Prunus dulcis
+Prunus domestica
+Prunus domestica insititia
+Pyrus communis (auf Quitte C)
+Rheum spp.
+Ribes nigrum
+Ribes rubrum
+Ribes uva-crispa
+Ribes x nidigrolaria
+Robinia pseudoacacia
+Rosa rugosa
+Rubus fruticosus
+Rubus idaeus
+Rubus nepalensis
+Rubus pentalobus
+Rubus phoenicolasius
+Salvia officinalis
+Sambucus canadensis
+Symphytum spp.
+Tilia spp. (Kopfbaum)
+Vaccinium spp.
+Zanthoxylum spp.
