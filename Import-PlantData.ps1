@@ -22,7 +22,7 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 #>
-function ConvertFrom-Hashtable {
+function global:ConvertFrom-Hashtable {
     [CmdletBinding()]
     Param([Parameter(Mandatory = $true)]
         [hashtable]$hashTable
