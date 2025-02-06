@@ -1,10 +1,11 @@
+# selection of 
 Acer saccharum
 Actinidia arguta
 Actinidia chinensis
 Actinidia deliciosa
 Actinidia kolomikta
 Actinidia polygama
-Akebia quinata/trifoliata
+Akebia spp.
 Albizia julibrissin
 Alnus cordata
 Alnus glutinosa
@@ -13,7 +14,7 @@ Amelanchier alnifolia
 Amelanchier canadensis
 Amelanchier laevis
 Amelanchier lamarckii
-Amelanchier ovalis (= A. vulgaris)
+Amelanchier ovalis 
 Amorpha fruticosa
 Aralia spp.
 Araucaria araucana
@@ -27,7 +28,7 @@ Berberis koreana
 Berberis vulgaris
 Betula pendula
 Betula pubescens
-Calycanthus floridus/occidentalis
+Calycanthus floridus
 Camellia sinensis
 Caragana arborescens
 Carya illinoiensis
@@ -41,13 +42,15 @@ Ceanothus americanus
 Celtis australis
 Cephalotaxus ssp.
 Cercis spp.
-Chaenomeles japonica/speciosa
+Chaenomeles japonica
+Chaenomeles speciosa
 Chaenomeles x superba
 Colutea arborescens
 Cornus florida
 Cornus kousa chinensis
 Cornus mas
-Corylus avellana/maxima/americana
+Corylus avellana
+Corylus americana
 Corylus colurna
 Crataegus azarolus
 Crataegus dubrovensis
@@ -76,10 +79,10 @@ Frangula alnus
 Fraxinus excelsior
 Gaultheria procumbens
 Gaultheria shallon
-Genista pilosa/tinctoria
+Genista pilosa
 Gingko biloba
 Gleditsia triacanthos
-Glycyrrhiza glabra/echinata
+Glycyrrhiza glabra
 Halesia carolina
 Hippophae rhamnoides
 Hovenia dulcis
@@ -102,18 +105,20 @@ Mahonia aquifolium
 Malus domestica
 Malus sylvestris
 Mespilus germanica
-Morus alba (tatarica)
+Morus alba 
 Morus nigra
 Morus rubra
 Myrica gale
 Myrtus spp.
-Passiflora incarnata/caerulea
+Passiflora incarnata
+Passiflora caerulea
 Paulownia tomentosa
 Phormium tenax
 Phyllostachys spp.
 Pinus spp.
 Poncirus trifoliata
-Populus alba/nigra
+Populus alba
+Populus nigra
 Prunus armeniaca L.
 Prunus avium
 Prunus cerasifera
@@ -131,7 +136,7 @@ Prunus tomentosa
 Pterocarya fraxinifolia
 Punica granatum
 Pyrus communis
-Pyrus pyrifolia/ussuriensis
+Pyrus pyrifolia
 Quercus spp.
 Rhus thypina
 Ribes divaricatum
@@ -165,23 +170,25 @@ Schisandra chinensis
 Shepherdia argenteas
 Sophora japonica
 Sorbaronia mitschurinii
-Sorbus aria/intermedia
+Sorbus aria
 Sorbus aucuparia (edulis)
-Sorbus domestica/torminalis
-Stachys affinis(Synonym: Stachys sieboldii)
-Staphylea pinnata/trifolia
+Sorbus domestica
+Staphylea pinnata
+Staphylea trifolia
 Syringa vulgaris
 Thymus vulgaris
-Tilia cordata/platyphyllos
+Tilia cordata
+Tilia platyphyllos
 Toona sinensis
 Ugni molinae
 Vaccinium angustifolium
 Vaccinium corymbosum
-Vaccinium oxycoccus/macrocarpon
-Viburnum opulus var. americanum/trilobum
+Vaccinium oxycoccus
+Vaccinium macrocarpon
+Viburnum opulus var. americanum
 Vitex agnus-castus
 Vitis vinifera
-Wisteria frutescens/sinensis
+Wisteria frutescens
 Zanthoxylum americanum
 Zanthoxylum piperitum
 Zanthoxylum schinifolium
