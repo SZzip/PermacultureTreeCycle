@@ -1,1 +1,1 @@
-[Manual Draft](https://n.rekul.de/index.php/s/8aGLmdyaxJTG7zX) 
+[Manual Draft on github wiki](https://github.com/SZzip/PermacultureTreeGuildsDesigner/wiki/Planungstool-f%C3%BCr-permanente-Nutzpflanzensysteme) 
