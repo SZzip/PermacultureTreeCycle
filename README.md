@@ -41,7 +41,8 @@ ID suffixes descibes the SVG element type.
 | --- | --- |
 | _text | Text element wich contains the text as XML text. |
 | _icon | Icon element wich contains the icon as SVG path. |
-| _group | Group element wich contains other elements amd is of SVG element type g. |
+| _group | Group element wich contains other elements and is of SVG element type g. |
+| _image | Image element, used for hand-drawn elements (raster graphics) |
 
 Here is an list of the fields and their IDs:
 
