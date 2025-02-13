@@ -60,7 +60,7 @@ All text elements have t_ as ID prefix and have to be of the element type text.
 | t_eatable-score_text | Score of the plant for the edible usability of the trees components. |
 | t_climate-zone_text | USDA Climate zone of the plant. |
 
-### hidable elements 
+### hideable elements 
 
 The visibility of the elements can be controlled by boolean values. If the value is true, the element is visible, if the value is false, the element is hidden. All hidable elements have a h_ as ID prefix. 
 
